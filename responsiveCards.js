@@ -1,5 +1,5 @@
 
-function getJokes(){
+function getJokesnow(){
 fetch("https://official-joke-api.appspot.com/random_ten")
 .then((Response)=>{
 return Response.json()
@@ -11,5 +11,5 @@ return Response.json()
   }
 })}
 window.onload=function(){
-  getJokes()
+  getJokesnow()
 }
