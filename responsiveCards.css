@@ -17,7 +17,22 @@
     padding: 0 10px;
 
   }
-  
+  .input{
+    
+    font-size: 18px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    width: 100px;
+    
+
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    transition: .2s;
+  }
+  .input:focus{
+    border-color:  dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue ;}
   /* Remove extra left and right margins, due to padding in columns */
   .row {
       margin: 0 -5px;
